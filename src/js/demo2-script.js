@@ -137,7 +137,6 @@ function animate(){
     spotLight.angle = options.angle;
     spotLight.penumbra = options.penumbra;
     spotLight.intensity = options.intensity;
-    // sLightHelper.update(); // Light helper
 
     renderer.render(scene, camera);
 }
